@@ -1,0 +1,7 @@
+<input type="button" onclick="nav()"><i class="fa-solid fa-bars fa-2x"></i>\
+\
+
+
+<div id="con3"></div>
+
+<button id="mybutton">begin</button>

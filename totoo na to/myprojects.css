@@ -1,0 +1,131 @@
+body{
+    background-color: #444444;
+    overflow-x:hidden;
+    overflow-y: hidden;
+}
+
+.container{
+    position: absolute;
+}
+
+ul > li{
+    list-style: none;
+    float: left;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    color: #8B7E74;
+    position: relative;
+    top: -15px;
+    left: -10px;
+    margin: 90px;
+    margin-top: 43px;
+    margin-left: 20px;
+    transition: 0.5s;
+    background-image: linear-gradient(90deg, white, white);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: background-size 300ms ease;
+}
+
+ul > li:hover{
+    background-size: 100% 3px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #8B7E74;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #8B7E74;
+}
+
+li:hover{
+    color: #8B7E74;
+    text-shadow: black 2px 2px;
+    opacity: 0.7;
+}
+
+
+.git > a{  
+    text-align: center;
+    color: #434242;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+}
+
+.git{
+    position: absolute;
+    top: 50px;
+    left: 1050px;
+    border: 2px solid  #8B7E74;
+    width: 200px;
+    height: 40px;
+    background-color:  #8B7E74 ;
+    border-radius: 50px;
+    transition: 0.8s;
+}
+
+.fa-github{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+}
+
+.git:hover{
+    box-shadow: 5px 5px 10px #B2B2B2;
+}
+
+.con2{
+    position: absolute;
+}
+
+#con3{
+    position: relative;
+    align-items: center;
+    background-color: red;
+    left: -5px;
+    top: 50px;
+    height: 100px;
+    width: 300px;
+    opacity: 1;
+}
+
+.fa-bars{
+    position: relative;
+    left: -1px;
+    top: 5px;
+
+}
+
+p{
+    position: absolute;
+    left: 370px;
+    top: 200px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    cursor: pointer;
+    color: #8B7E74;
+}
+
+.circle{
+    position: relative;
+}
+
+.item{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #474E68;
+    background-color: #474E68;
+    border-radius: 1000px;
+    left:1055px;
+    top: 500px;
+}

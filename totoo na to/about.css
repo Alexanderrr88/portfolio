@@ -1,0 +1,154 @@
+body{
+    background-color: #444444;
+    overflow-x:hidden;
+    overflow-y: hidden;
+}
+
+.container{
+    position: relative;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.con2{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+ul > li{
+    list-style: none;
+    float: left;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    color: #8B7E74;
+    position: relative;
+    top: 0px;
+    margin: 50px;
+    transition: 0.5s;
+    background-image: linear-gradient(90deg, white, white);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: background-size 300ms ease;
+}
+
+ul > li:hover{
+    background-size: 100% 3px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #8B7E74;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #8B7E74;
+}
+
+li:hover{
+    color: #8B7E74;
+    text-shadow: black 2px 2px;
+    opacity: 0.7;
+}
+
+.git > a{  
+    text-align: center;
+    color: #434242;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+}
+
+.git{
+    position: absolute;
+    top: 50px;
+    left: 1050px;
+    border: 2px solid  #8B7E74;
+    width: 200px;
+    height: 40px;
+    background-color:  #8B7E74 ;
+    border-radius: 50px;
+    transition: 0.8s;
+}
+
+.fa-github{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+}
+
+.git:hover{
+    box-shadow: 5px 5px 10px #B2B2B2;
+}
+
+.circle{
+    position: relative;
+}
+
+.item{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #474E68;
+    background-color: #474E68;
+    border-radius: 1000px;
+    left:1055px;
+    top: 500px;
+}
+
+.par{
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: #8B7E74;
+
+}
+
+.name{
+    position: absolute;
+    top: 150px;
+    left: 410px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: #8B7E74;
+}
+
+.con2{
+    position: absolute;
+}
+
+.fa-html5{
+    color: #FF8800;
+    position: relative;
+    top: 150px;
+    left: 400px;
+}
+
+.fa-css3-alt{
+    color: steelblue;
+    position: relative;
+    top: 150px;
+    left: 450px;
+}
+
